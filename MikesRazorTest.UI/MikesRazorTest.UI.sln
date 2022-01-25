@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRT.UI", "MikesRazorTest.UI\MRT.UI.csproj", "{B86E9419-4655-4395-82BB-1CB590B26CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRT.Application", "MRT.Application\MRT.Application.csproj", "{A14BA1C6-A8D1-4C94-80AF-BB7A3D36B125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B86E9419-4655-4395-82BB-1CB590B26CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86E9419-4655-4395-82BB-1CB590B26CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86E9419-4655-4395-82BB-1CB590B26CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86E9419-4655-4395-82BB-1CB590B26CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14BA1C6-A8D1-4C94-80AF-BB7A3D36B125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14BA1C6-A8D1-4C94-80AF-BB7A3D36B125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14BA1C6-A8D1-4C94-80AF-BB7A3D36B125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14BA1C6-A8D1-4C94-80AF-BB7A3D36B125}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F092FA4-DCC6-46B5-9AE8-40DB7B01B12A}
+	EndGlobalSection
+EndGlobal

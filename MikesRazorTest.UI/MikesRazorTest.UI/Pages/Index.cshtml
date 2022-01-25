@@ -1,0 +1,39 @@
+﻿@page
+@using MRT.Application.Models
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+
+    List<Scenario> listOfSceanrios = ViewBag.ScenarioData;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <form class="form-horizontal" method="post">
+        <table class="table table-striped">
+            <tr>
+                <th>Full name (User ID)</th>
+                <th>Key Dates</th>
+            </tr>
+            @foreach (var i in listOfSceanrios)
+            {
+                <tr>
+                    <td>
+                        <div> 
+                             @i.Surname @i.Forename (@i.UserID) - @i.ScenarioName
+                        </div>
+                    </td>
+                    <td>
+                        <div> 
+                            Sample Date @i.SampleDate Creation Date @i.CreationDate Number of Months @i.NumMonths
+                        </div>
+                    </td>
+                </tr>
+            }
+        </table>
+
+    </form>
+
+</div>
+
